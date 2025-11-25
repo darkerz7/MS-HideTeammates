@@ -1,0 +1,22 @@
+{
+	"HideTeammates.PluginDisabled": {
+		"en-us": "Hide command is currently {{red}}disabled",
+		"ru-ru": "Сейчас {{red}}отключено"
+	},
+	"HideTeammates.EnableAllMap": {
+		"en-us": "Hiding teammates across the {{lightblue}}entire map",
+		"ru-ru": "Скрытие тиммейтов сейчас {{green}}Включено {{default}}на {{lightblue}}Всей карте"
+	},
+	"HideTeammates.Enable": {
+		"en-us": "Hiding teammates within {{lightblue}}{0} {{default}}units",
+		"ru-ru": "Скрытие тиммейтов сейчас {{green}}Включено {{default}}на дистанции {{lightblue}}{0}"
+	},
+	"HideTeammates.Wrong": {
+		"en-us": "{{red}}Wrong distance input{{default}}, range must be between {{lime}}0{{default}}-{{lime}}{0}",
+		"ru-ru": "Скрытие тиммейтов. {{red}}Ошибка ввода{{default}}, Диапозон {{lime}}0{{default}}-{{lime}}{0}"
+	},
+	"HideTeammates.Disable": {
+		"en-us": "{{red}}Unhidden {{default}}all teammates",
+		"ru-ru": "Скрытие тиммейтов сейчас {{red}}Отключено"
+	}
+}
