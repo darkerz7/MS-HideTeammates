@@ -58,6 +58,5 @@ jobs:
         tag: "${{ env.PROJECT_NAME }}-v.${{ env.BUILD_NUMBER }}"
         generateReleaseNotes: true
         makeLatest: true
-        token: "${{ secrets.SECRET_TOKEN }}"
         body: |
           ${{ env.PROJECT_NAME }} release ${{ env.BUILD_NUMBER }} for ModSharp. Hides Teammates on the entire map or distance.
