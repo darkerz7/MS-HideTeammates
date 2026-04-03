@@ -330,9 +330,9 @@ namespace MS_HideTeammates
             var player = client.GetPlayerController()!;
             if (GetLocalizer() is { } lm)
             {
-                var localizer = lm.GetLocalizer(client);
-                if (bChatTrigger) player.Print(HudPrintChannel.Chat, $" {ChatColor.Blue}[{ChatColor.Green}HT{ChatColor.Blue}] {ChatColor.White} {ReplaceColorTags(localizer.Format(sMessage, arg))}");
-                else player.Print(HudPrintChannel.Console, $"[HT] {ReplaceColorTags(localizer.Format(sMessage, arg), false)}");
+                var localizer = lm.For(client);
+                if (bChatTrigger) player.Print(HudPrintChannel.Chat, $" {ChatColor.Blue}[{ChatColor.Green}HT{ChatColor.Blue}] {ChatColor.White} {ReplaceColorTags(localizer.Text(sMessage, arg))}");
+                else player.Print(HudPrintChannel.Console, $"[HT] {ReplaceColorTags(localizer.Text(sMessage, arg), false)}");
             }
         }
 

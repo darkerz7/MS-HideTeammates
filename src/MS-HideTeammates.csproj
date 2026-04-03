@@ -5,13 +5,13 @@
     <RootNamespace>MS_HideTeammates</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ModSharp.Sharp.Modules.ClientPreferences.Shared" Version="2.1.88" />
-    <PackageReference Include="ModSharp.Sharp.Modules.LocalizerManager.Shared" Version="2.1.88" />
-    <PackageReference Include="ModSharp.Sharp.Shared" Version="2.1.88" />
+    <PackageReference Include="ModSharp.Sharp.Modules.ClientPreferences.Shared" Version="2.1.117" />
+    <PackageReference Include="ModSharp.Sharp.Modules.LocalizerManager.Shared" Version="2.1.117" />
+    <PackageReference Include="ModSharp.Sharp.Shared" Version="2.1.117" />
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
