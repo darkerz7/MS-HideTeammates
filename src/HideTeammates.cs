@@ -192,7 +192,7 @@ namespace MS_HideTeammates
             }, 5);
         }
 
-        public void OnClientDisconnected(IGameClient client)
+        public void OnClientDisconnected(IGameClient client, NetworkDisconnectionReason reason)
         {
             g_bHide[client.Slot] = false;
             g_iDistance[client.Slot] = 0;
